@@ -1,0 +1,189 @@
+/* Hero Section */
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    height: 1080px;
+    
+    
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    flex: 1;
+    margin-left: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    
+}
+.hero-headline{
+    font-family: Abril Fatface;
+    font-size: 84px;
+    margin: 0 0 0 0;
+    color: #001858;
+}
+.hero-description{
+    font-family: Poppins;
+    font-size: 24px;
+    color: #172c66;
+    
+}
+
+.hero-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-right: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+}  
+
+
+/* About Me */
+.about-description-container{
+    margin-bottom: 40px;
+}
+
+.about-me-section{
+    margin: 0px 120px 0px 120px;
+    
+    padding: 120px 100px 40px 100px;
+}
+
+.page-title-about{
+    font-family: Abril Fatface;
+    font-size: 64px;
+    margin: 0 0 0 0;
+    color: #001858;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.page-description-about{
+    font-family: Poppins;
+    font-size: 24px;
+    color: #172c66;
+    text-align: center;
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* Tech Stack */
+.tech-stack-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.tech-stack-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.tech-stack-image{
+    width: 80px;
+    margin-bottom: 20px;
+    
+}
+.tech-stack-title{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+
+    color: #001858;
+}
+/* Contact Form */
+.contact-headline{
+    font-family: Abril Fatface;
+    font-size: 64px;
+    margin: 0 0 0 0;
+    color: #001858;
+}
+
+.contact-form-section{
+    background-color: #f3d2c1;
+    margin-top: 60px;
+    padding: 60px 100px 60px 100px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.contact-form-label{
+    font-family: Poppins;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.contact-form-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 600px;
+
+    background-color: #fef6e4;
+    border: 5px solid #001858;
+
+
+    padding: 40px;
+    margin: 40px;
+    
+}
+.contact-form-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 0.5;
+
+    margin-left: 32px;
+    
+}
+
+.contact-input-form{
+    height: 32px;
+    width: 460px;
+    padding-left: 20px;
+}
+
+
+.contact-input-message{
+    height: 100px;
+    width: 460px;
+    padding-left: 20px;
+}
+
+.submit-msg-btn{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 20px;
+    color: #001858;
+
+    background-color: #F582AE;
+    border: none;
+    padding: 8px 16px 8px 16px;
+    margin-top: 20px;
+
+    transition: 400ms;
+}
+.submit-msg-btn:hover{
+    background-color: #f8639c;
+    
+    
+}
